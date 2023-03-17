@@ -166,6 +166,7 @@ width: 80%;
 @media only screen and (max-width: 768px) {
   .profile-cont{
     display: block;
+    overflow-x: hidden;
   }
   .profile-bio{
     font-size: .8rem;
@@ -176,6 +177,9 @@ width: 80%;
   }
   .profile-content{
     margin: 3%;
+  }
+  .profile-image{
+    display: block;
   }
 }
 </style>
