@@ -42,4 +42,9 @@ button{
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  .error-cont {
+    margin-top: 30%;
+  }
+}
 </style>

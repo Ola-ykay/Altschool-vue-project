@@ -3,7 +3,7 @@
      
   <div class="profile-content">
     <div class="profile-bio">
-      <h1>{{ profile.name }} is a frontend developer passionate about solving problem and building amazing projects</h1>
+      <h1>{{ profile.name}} is a frontend developer passionate about solving problem and building amazing projects</h1>
     </div>
      
 
@@ -82,7 +82,32 @@
 
   .profile-bio{
 margin-top:8%;
+animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
   }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.profile-bio:hover{
+  color: #c4920a;
+}
+/* .profile-bio.animate{
+  opacity: 1;
+  transform: translateY(0);
+} */
 .profile-image{
   display: flex;
   /* flex-direction: column; */
@@ -136,6 +161,22 @@ width: 80%;
   color: grey; 
   font-size: .8rem;
   gap: .3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-cont{
+    display: block;
+  }
+  .profile-bio{
+    font-size: .8rem;
+    margin-top: 15%;
+  }
+  .profile-links{
+    width: 100%;
+  }
+  .profile-content{
+    margin: 3%;
+  }
 }
 </style>
   

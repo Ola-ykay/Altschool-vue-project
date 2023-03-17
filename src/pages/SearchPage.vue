@@ -172,5 +172,20 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     .result-box1{
         font-size: 1.2rem;
     }
+
+    @media only screen and (max-width: 768px) {
+        .heading{
+            width: 70%;
+            margin: auto;
+            padding-top: 20%;
+            font-size: .8rem;
+        }
+        /* form{
+            margin: 5%;
+        } */
+        input{
+            width: 300px;
+        }
+    }
       
 </style>

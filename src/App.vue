@@ -12,9 +12,14 @@ import NavBar from './components/NavBar.vue';
     name: 'App',
     components: {
     NavBar,
-      
-    }
-  }
+    },
+    mounted(){
+      const link = document.createElement('link')
+      link.href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap"
+      link.rel="stylesheet"
+      document.head.appendChild(link)
+    },
+  };
 </script>
 
 <style>
@@ -24,7 +29,8 @@ color: #fff;
 }
 body, *{
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

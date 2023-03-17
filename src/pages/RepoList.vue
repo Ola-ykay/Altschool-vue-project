@@ -138,4 +138,19 @@ background: #000;
 .active{
   border: 1px dashed #fff;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .repo-list {
+    padding: 20px;
+  }
+
+  .repo-cont {
+    width: 100%;
+  }
+
+  .repo-details {
+    margin: 10px;
+  }
+}
 </style>
