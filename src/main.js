@@ -3,14 +3,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import App from './App.vue'
 import HomePage from "./pages/HomePage.vue";
 import RepoList from "./pages/RepoList.vue";
-import SearchPage from "./pages/SearchPage.vue";
+import pageSearch from "./pages/pageSearch.vue";
 
 // import router from './router'
 
 const routes = [
   { path: "/", component: HomePage, name: "HomePage" },
   { path: "/repo", component: RepoList, name: "RepoList" },
-  { path: "/search", component: SearchPage, name: "SearchPage" },
+  { path: "/search", component: pageSearch, name: "pageSearch" },
   {
     name: "NotFound",
     path: "/:catchAll(.*)",

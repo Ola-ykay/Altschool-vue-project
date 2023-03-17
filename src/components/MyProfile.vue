@@ -30,7 +30,7 @@
       </div>
   </div>
       <div class="profile-public"> 
-      <p><strong>Followers:</strong>{{ profile.followers }}</p>
+      <p><strong>Followers:</strong> {{ profile.followers }}</p>
       <p><strong>Following:</strong> {{ profile.following }}</p>
       <p><strong>Public Repos:</strong> {{ profile.public_repos }}</p>
         </div>
@@ -175,11 +175,24 @@ width: 80%;
   .profile-links{
     width: 100%;
   }
+  /* .links{
+    display: block;
+  } */
   .profile-content{
     margin: 3%;
   }
-  .profile-image{
-    display: block;
+  .profile-image img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .profile-links{
+    width: 80%;
+    padding: 10px;
   }
 }
 </style>
