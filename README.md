@@ -5,10 +5,13 @@ This project involves creating a Vue JS application that integrates with the Git
 ## Link
 https://olaykay-git.vercel.app/
 
+## Snapshot
+![Git--project](https://user-images.githubusercontent.com/106248524/226140765-09fe62f0-c877-4d79-868e-514a3fdb7371.png)
+
 
 ## Project setup
 ```
-npm install
+vue create project-name
 ```
 
 ### Compiles and hot-reloads for development
