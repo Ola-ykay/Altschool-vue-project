@@ -181,7 +181,8 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
         }
         .result-box ul{
             display: block;
-            width: 100%;
+            height: 200px;
+            width: 280px;
         }
     }
       

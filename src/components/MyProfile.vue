@@ -3,7 +3,7 @@
      
   <div class="profile-content">
     <div class="profile-bio">
-      <h1>{{ profile.name}} is a frontend developer passionate about solving problem and building amazing projects</h1>
+      <h1>{{ profile.name}} is a frontend developer passionate about solving problems and building amazing projects</h1>
     </div>
      
 
@@ -132,9 +132,8 @@ width: 80%;
 .links .image{
  width: 20px;
  height: 20px;
-
-  
 }
+
 .links{
   display: flex;
   justify-content: space-between;
@@ -175,9 +174,17 @@ width: 80%;
   .profile-links{
     width: 100%;
   }
-  /* .links{
-    display: block;
-  } */
+  .links a{
+    font-size: .6rem;
+  }
+  .links p{
+  font-size: .6rem;
+  }
+
+  .links .image{
+ width: 10px;
+ height: 10px;
+}
   .profile-content{
     margin: 3%;
   }
@@ -186,6 +193,9 @@ width: 80%;
     flex-direction: row;
     width: 100%;
    margin: 0 auto;
+  }
+  .profile-public{
+    font-size: .6rem;
   }
 }
 
