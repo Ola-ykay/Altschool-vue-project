@@ -153,13 +153,14 @@ width: 80%;
 }
 .profile-public{
  display: flex;
-  padding: 5px;
+/* padding-left: 12px; */
   margin-top: 20px;
   justify-content: left;
   align-items: center;
   color: grey; 
   font-size: .8rem;
-  gap: .3rem;
+  gap: .5rem;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 768px) {
